@@ -1,0 +1,27 @@
+*{padding: 0; margin: 0}
+img{display: inline-block;}
+ul,li{
+    list-style: none;
+}
+[v-cloak]{display: none !important}
+#app{width: 1200px; border:1px solid #c2c2c2; height: 500px; margin: 0 auto; position: relative;}
+.layer{width: 400px;height: 200px; border: 1px solid #f1f1f1;background-color: #fff;}
+.layer h3{text-align: center;font-size: 20px;height: 40px;line-height: 40px;margin: 0;font-weight: normal;}
+.layer li{height: 40px;line-height: 40px;margin-left: 10px;float: left;}
+.layer label{width: 80px;margin-right: 6px;float: left;}
+.layer input{width: 280px;outline: none;float: left;height: 30px;line-height: 30px;border: 1px solid #f1f1f1;padding-left: 5px;color: #999;}
+#app p{width:600px;margin-left: 21px;}
+.del{width: 100px;float:right;outline: none;height: 30px;border-radius: 10px;display: block;background: none;border:none;background:#00bafa;color: #fff;margin: 0 auto;cursor: pointer;margin-left: 94px;}
+}
+.layer button{width: 100px;outline: none;height: 30px;border-radius: 10px;display: block;background: none;border:none;background:#00bafa;color: #fff;margin: 0 auto;cursor: pointer;float: left;margin-left: 94px;}
+.list{width: 620px;margin-top: 20px;margin-left: 20px;}
+.list li{height: 30px;}
+.list span{width: 122px;height: 30px;line-height: 30px;display:inline-block;text-align: center;border: 1px solid #c2c2c2;padding: 0;margin: 0;float: left;border-right: 0;font-size: 12px;}
+.list span:last-child{border-right:1px solid #c2c2c2}
+.reset{margin-left: 20px;background-color: #e05151;}
+.close{margin-right: 10px; margin-top: 3px;}
+.nav{ height: 60px; line-height: 60px; background: #00bafa;}
+.nav ul{ width: 1200px; margin: 0 auto}
+.nav li{float: left; width: 100px; color: #fff; text-align: center;}
+.nav li.active{background:rgba(0,0,0,0.4);}
+.nav a{color: #fff}
